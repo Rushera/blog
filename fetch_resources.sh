@@ -3,6 +3,7 @@
 GOHOST=https://blog.golang.org
 RESOURCES=(
     fonts.css
+    lib/godoc/style.css
     lib/godoc/playground.js
     lib/godoc/godocs.js
     lib/godoc/play.js
