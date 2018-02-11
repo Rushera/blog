@@ -16,5 +16,5 @@ mkdir -p ${LIBROOT}/lib/godoc
 
 set -x
 for i in ${RESOURCES[@]}; do
-    curl ${GOHOST}/${i} -O content/${i}
+    curl ${GOHOST}/${i} -o content/${i}
 done
